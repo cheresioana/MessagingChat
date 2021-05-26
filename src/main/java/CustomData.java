@@ -1,9 +1,5 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.util.UUID;
 
 public class CustomData implements Serializable {
 
@@ -56,7 +52,6 @@ public class CustomData implements Serializable {
                 "\"sursa\":\"" + sursa + "\","+
                 "\"destinatar\":\"" + destinatar + "\","+
                 "\"message\":\"" + message + "\""+
-
                 "};";
 
 
